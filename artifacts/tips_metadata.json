@@ -9,6 +9,26 @@
 				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "addtips",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewtips",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,11 +59,11 @@
 	},
 	"sources": {
 		"tips.sol": {
-			"keccak256": "0x690e8d38f5ad326fd9e0ed89c4ba6ddd9a02e9ff9de59f307cffac6c530de21a",
+			"keccak256": "0x7ee2db7246dbffaef491abb095d6d7f2ec9379b4b73ba09b1b6f3e0acec8b4d7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5b7137f821f0a7993479311a6f060f9c6a923bb76831d5074143030822b70d85",
-				"dweb:/ipfs/QmNgYsiNQB3zqLm7DS2rztDtoBwNKERzXRTPNjatCTHJTf"
+				"bzz-raw://f9ffe76c7202e841a224d70ddec3f366d20b401dc33d367d04d298e9c8bc643c",
+				"dweb:/ipfs/QmWTWfDgEd7mez3An9L2TTRjk91j39PfALtXGMN49cji3W"
 			]
 		}
 	},
